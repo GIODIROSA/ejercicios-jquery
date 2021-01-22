@@ -2,6 +2,7 @@
 
 $(document).ready(function () {
   $("#codigo").hide(3000).show(1000);
+  
 
   $("#mi-boton").click(function () {
     $(this).toggleClass("text-secondary text-warning");
