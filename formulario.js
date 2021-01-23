@@ -1,16 +1,35 @@
 // alert("hola a todos");
 
-let btn = document.getElementById("1");
+let btn2 = document.getElementById("2");
+let btn3 = document.getElementById("3");
+let btn4 = document.getElementById("4");
+let btn5 = document.getElementById("5");
 
-btn.addEventListener("click", accionar);
+btn2.addEventListener("click", accionar);
+btn3.addEventListener("click", loquesea);
+btn4.addEventListener("click", wololo);
+btn5.addEventListener("click", cinco);
 
 function accionar() {
-  let loquesea = document.getElementById("1");
+  if (btn2.id == 2) {
+    alert(btn2.id);
+  } else if (btn3.id == 3) {
+    alert(btn3.id);
+  } else {
+    alert("estas mal");
+  }
+}
 
-  console.log(loquesea.name);
-  alert(loquesea.name);
+function loquesea() {
+  alert(btn3.id);
+}
 
+function wololo() {
+  alert(btn4.id);
+}
 
+function cinco() {
+  alert(btn5.id);
 }
 
 // let btn_excelente = document.getElementById("mi-boton");
@@ -88,3 +107,25 @@ function accionar() {
 //     }
 
 // }
+
+// console.log(papo.id);
+//   alert(papo.id);
+//   document.getElementById("2").style.color = "yellow";
+//   document.getElementById("3").style.color = "green";
+//   document.getElementById("4").style.color = "red";
+//   document.getElementById("5").style.color = "red";
+
+// document.getElementById("3").style.color = "yellow";
+// document.getElementById("2").style.color = "red";
+// document.getElementById("4").style.color = "red";
+
+// console.log(excelente.id);
+//   alert(papo.id);
+
+//   if (muyBueno.id == 3) {
+//     alert(muyBueno.id);
+//   } else if (excelente.id == 2) {
+//     alert(excelente.id);
+//   } else {
+//     alert("estas cayendo en el else");
+//   }
