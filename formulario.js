@@ -13,31 +13,31 @@ btn5.addEventListener("click", cinco);
 function accionar() {
   alert(btn2.id);
   document.getElementById("2").style.color = "yellow";
-  document.getElementById("3").style.color = "gray";
-  document.getElementById("4").style.color = "gray";
-  document.getElementById("5").style.color = "gray";
+  document.getElementById("3").style.color = "silver";
+  document.getElementById("4").style.color = "silver";
+  document.getElementById("5").style.color = "silver";
 }
 
 function loquesea() {
   alert(btn3.id);
-  document.getElementById("2").style.color = "gray";
+  document.getElementById("2").style.color = "silver";
   document.getElementById("3").style.color = "yellow";
-  document.getElementById("4").style.color = "gray";
-  document.getElementById("5").style.color = "gray";
+  document.getElementById("4").style.color = "silver";
+  document.getElementById("5").style.color = "silver";
 }
 
 function wololo() {
   alert(btn4.id);
-  document.getElementById("2").style.color = "gray";
-  document.getElementById("3").style.color = "gray";
+  document.getElementById("2").style.color = "silver";
+  document.getElementById("3").style.color = "silver";
   document.getElementById("4").style.color = "yellow";
-  document.getElementById("5").style.color = "gray";
+  document.getElementById("5").style.color = "silver";
 }
 
 function cinco() {
   alert(btn5.id);
-  document.getElementById("2").style.color = "gray";
-  document.getElementById("3").style.color = "gray";
-  document.getElementById("4").style.color = "gray";
+  document.getElementById("2").style.color = "silver";
+  document.getElementById("3").style.color = "silver";
+  document.getElementById("4").style.color = "silver";
   document.getElementById("5").style.color = "yellow";
 }
