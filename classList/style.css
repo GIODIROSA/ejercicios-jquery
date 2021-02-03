@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.ghibli {
+  background: url("../classList/asset/images/ghibli_MHEV-modelo.png");
+  width: 650px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hybrid {
+  background: url("../classList/asset/images/levante_trofeo-modelo.png");
+  width: 650px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.trofeo {
+  background: url("../classList/asset/images/quattroporte.png");
+  width: 650px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
