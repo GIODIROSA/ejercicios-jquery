@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="prueba">Probando</h1>
+    </div>
+
+    <select id="tipoCredito" onchange="credito()">
+      <option value="" disabled>tipo Crédito</option>
+      <option id="inteligente" value="inteligente">
+        tipo Crédito inteligente
+      </option>
+      <option id="convencional" value="convencional">
+        tipo Credito convencional
+      </option>
+    </select>
+
+    <select id="mySelect" onchange="myFunction()">
+      <option value="Audi">Audi</option>
+      <option value="BMW">BMW</option>
+      <option value="Mercedes">Mercedes</option>
+      <option value="Volvo">Volvo</option>
+    </select>
+
+    <div id="prueba"></div>
+
+    <script src="select.js"></script>
+  </body>
+</html>
